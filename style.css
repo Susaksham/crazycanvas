@@ -17,7 +17,7 @@ body {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url('../background-image.jpeg');
+    url('background-image.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   /*#4a98f7*/
