@@ -1,0 +1,22 @@
+ stroke() : - method to actually draw the path on the canvas
+
+beginPath() - method begins a path, or resets the current path.
+
+Tip: Use moveTo(), lineTo(), quadricCurveTo(), bezierCurveTo(), arcTo(), and arc(), to create paths.
+
+ctx = canvas.getContext('2d') // to create the context
+
+ctx.fillStyle = '#fff' // to fill the color in the context
+
+ctx.strokeRect : to draw the rectangle
+
+ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI)// to draw the cirle 
+
+ctx.lineTo(prevMouseX * 2 - e.offsetX, e.offsetY) // to draw the triangle  
+
+
+The closePath() : - method creates a path from the current point back to the starting point.
+
+  ctx.lineWidth = brushWidth
+
+snapshot = ctx.getImageData(0, 0, canvas.width, canvas.height) : - The code below copies the pixel data for a specified rectangle on the canvas with getImageData()
